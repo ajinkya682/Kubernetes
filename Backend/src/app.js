@@ -3,7 +3,7 @@ import morgan from "morgan";
 
 const app = express();
 
-app.use(morgan("Dev"));
+app.use(morgan("dev"));
 app.use(express.json());
 
 app.get("/", (req, res) => {
