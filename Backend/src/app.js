@@ -14,4 +14,8 @@ app.get("/", (req, res) => {
   res.send(`Hello World! ${sum}`);
 });
 
+app.get("/health", (req, res) => {
+  res.send("OK");
+});
+
 export default app;
